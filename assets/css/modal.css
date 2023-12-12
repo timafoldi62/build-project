@@ -1,0 +1,28 @@
+.custom-modal-content {
+  background: #fff;
+  padding: 50px;
+  border-radius: 8px;
+  position: relative;
+  max-width: 700px;
+}
+
+.close-modal {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.close-modal.cross {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.close-modal.cross:hover {
+  transform: rotate(180deg);
+}
+
+.close-modal svg,
+close-modal img {
+  width: 24px;
+  height: 24px;
+}

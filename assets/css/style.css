@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.builds-list path {
+  fill: #05ffff00;
+  stroke: #05ffff00;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.builds-list path:hover {
+  fill: #05ffff;
+  stroke: #05ffff;
+  stroke-width: 3;
+  fill-opacity: 0.3;
+}
+
+.builds-info {
+  padding: 48px;
+  position: absolute;
+  right: 15px;
+  border-radius: 10px;
+}
+
+.info-list {
+  padding: 24px;
+  list-style: none;
+  border-radius: 10px;
+}
